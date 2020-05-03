@@ -1,9 +1,7 @@
+
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
 }
 
 .App-header {
@@ -18,5 +16,269 @@
 }
 
 .App-link {
-  color: #09d3ac;
+  color: #61dafb;
+}
+
+.PageForm {
+  height: 100vh;
+  display: flex;
+  color: white;
+}
+
+.Left_Side {
+  width: 50%;
+  background-color: #66DAC7;
+  background-image: url("https://images.all-free-download.com/images/graphiclarge/ancient_books_vector_287426.jpg");
+  background-size: 100% 100% ;
+}
+
+.Right_Side {
+  width: 50%;
+  background-color: #2E4158;
+  padding: 25px 40px;
+  overflow: auto;
+}
+
+.PageSwitcher {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10%;
+}
+.PageSwitcher__Item {
+  background-color: #4C5D72;
+  color: #9DA6B1;
+  padding: 10px 25px;
+  cursor: pointer;
+  font-size: .9em;
+  border: none;
+  outline: none;
+  display: inline-block;
+  text-decoration: none;
+}
+.PageSwitcher__Item--Active {
+  background-color: #5ED0C0;
+  color: white;
+}
+.PageSwitcher__Item:first-child {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  
+}
+.PageSwitcher__Item:last-child {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+
+.FormTitle {
+  
+  color: #707C8B;
+  font-weight: 400;
+  margin-bottom: 50px;
+  text-align: left;
+  margin-left: 50px;
+ 
+
+}
+.FormTitle__Link {
+  color: #707C8B;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.7em;
+  margin: 0 10px;
+  padding-bottom: 5px;
+  
+}
+
+.FormTitle__Link:first-child {
+  margin-left: 0;
+}
+
+.FormTitle__Link--Active {
+  color: white;
+  border-bottom: 1px solid #199087;
+}
+
+.FormField {
+  margin-bottom: 40px;
+}
+
+.FormField__Label {
+  display: block;
+  text-transform: uppercase;
+  font-size: 1em;
+  color: white;
+  text-align: left;
+  padding-left: 50px;
+}
+.FormField__Input {
+  width: 85%;
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  border-bottom: 1px solid #445366;
+  font-size: 1em;
+  font-weight: 300;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.FormField__Input::placeholder {
+  color: #616E7F;
+}
+
+.FormField__Button {
+  background-color: #52C4B9;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  padding: 15px 70px;
+  font-size: .9em;
+  font-weight: 700;
+  margin-left: -38%;
+}
+.FormField__Link {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  border-bottom: 1.5px solid #225E62;
+  padding-bottom: 5px;
+  margin-left: 20px;
+}
+/*For search rooms*/
+.SearchTab{
+  margin: 1rem;
+  margin-top: 80px;
+  border: 1px solid #dae1e7;
+  box-sizing: inherit;
+  padding: 16px;
+  
+}
+.roomTitle{
+  color: blue;
+  margin-top: 100px;
+}
+
+.leftBox{
+  width: 50%;
+  margin-top: 30px;
+  color:black;
+}
+.btnSave{
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  background-color: blue;
+  font-size: 20px;
+  height:40px;
+  width:90px;
+}
+.btnCancel{
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  background-color: red;
+  font-size: 20px;
+  margin-left: 15px;
+  height:40px;
+  width:90px;
+}
+.rightBox{
+  width: 50%;
+  overflow: auto;
+  margin-top: 30px;
+  color:black;
+}
+
+.btnStart{
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  background-color: #4CAF50;
+  font-size: 20px;
+  height:40px;
+  width:90px;
+}
+.btnStop{
+  font-size: 20px;
+  margin-left: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  background-color: #f44336;
+  height:40px;
+  width:90px;
+}
+.btnStart:hover {
+  background-color: grey;
+  color: black;
+}
+.btnStop:hover {
+  background-color: grey;
+  color: black;
+}
+.btnSave:hover {
+  background-color: grey;
+  color: black;
+}
+.btnCancel:hover {
+  background-color: grey;
+  color: black;
+}
+.homepage{ 
+  background-image: url("https://i.pinimg.com/736x/02/fe/ea/02feea079de7bf284f2de89448ee44c5.jpg");
+  margin-top: -5px;
+  color:white;
+  height: 600px;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+.home_butt{
+  padding-top: 200px;
+  
+}
+/* Blue */
+.btn {
+  border: 2px solid black;
+  background-color: transparent;
+  color: black;
+  padding: 14px 28px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.info {
+  border-color: #2196F3;
+  color: dodgerblue;
+  margin-left: 20px;
+  font-weight: bold;
+}
+.info:hover {
+  background: #2196F3;
+  color: white;
+}
+.link{
+  border-color: transparent;
+  color: transparent;
+  margin-left: 20px;
+  font-weight: bold;
+}
+.link a{
+  color: white;
+  text-decoration:none;
+}
+.link:hover {
+  background: #2196F3;
+  color: yellow;
+}
+
+a{
+  text-decoration:none;
 }
