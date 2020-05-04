@@ -3,9 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.9.12",
+    "mdbreact": "^4.26.0",
     "react": "^16.10.2",
+    "react-bootstrap": "^1.0.1",
     "react-dom": "^16.10.2",
-    "react-scripts": "3.2.0"
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "react-speech-recognition": "^2.0.4"
   },
   "scripts": {
     "start": "react-scripts start",
