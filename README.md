@@ -9,19 +9,55 @@ NOTEMATE is a long project in CMPE 195, Software Engineering Senior Project, at 
 - Take notes while listening / reading the lecture text.
 
 ## Folder Hierarchy 
-NoteMate
-├── Server-side (back-end)
-│        controllers
-│        models
-│        app.js
-│        package.json
-│        .....
-├── Client-side (front-end)
-│        src
-│        public
-│        package.json
-│        .....
-└── README.md
+- __NoteMate__
+   - [README.md](README.md)
+   - __client__
+     - [node\_modules](client/node_modules)
+     - [package\-lock.json](client/package-lock.json)
+     - [package.json](client/package.json)
+     - __public__
+       - [ancient\_books\_vector\_287426.jpg](client/public/ancient_books_vector_287426.jpg)
+       - [favicon.ico](client/public/favicon.ico)
+       - [home\_2.jpg](client/public/home_2.jpg)
+       - [home\_page.jpg](client/public/home_page.jpg)
+       - [images.png](client/public/images.png)
+       - [index.html](client/public/index.html)
+       - [logo192.png](client/public/logo192.png)
+       - [logo512.png](client/public/logo512.png)
+       - [manifest.json](client/public/manifest.json)
+       - [robots.txt](client/public/robots.txt)
+     - __src__
+       - [App.css](client/src/App.css)
+       - [App.js](client/src/App.js)
+       - [App.test.js](client/src/App.test.js)
+       - __AuthenticationPage__
+         - [SignPages.js](client/src/AuthenticationPage/SignPages.js)
+         - [SigninForm.js](client/src/AuthenticationPage/SigninForm.js)
+         - [SignupForm.js](client/src/AuthenticationPage/SignupForm.js)
+       - __Home__
+         - [Home.js](client/src/Home/Home.js)
+       - __NavBar__
+         - [NavBar.js](client/src/NavBar/NavBar.js)
+         - [TabBar.js](client/src/NavBar/TabBar.js)
+       - __Record__
+         - [Dictaphone.js](client/src/Record/Dictaphone.js)
+         - [Recording.js](client/src/Record/Recording.js)
+         - [VoicetoText.js](client/src/Record/VoicetoText.js)
+       - __RoomSelection__
+         - [Course.js](client/src/RoomSelection/Course.js)
+         - [CourseList.js](client/src/RoomSelection/CourseList.js)
+         - [RoomSelection.js](client/src/RoomSelection/RoomSelection.js)
+       - [index.css](client/src/index.css)
+       - [index.js](client/src/index.js)
+       - [logo.svg](client/src/logo.svg)
+       - [serviceWorker.js](client/src/serviceWorker.js)
+     - [yarn.lock](client/yarn.lock)
+   - __server__
+     - [index.js](server/index.js)
+     - [package.json](server/package.json)
+     - [yarn.lock](server/yarn.lock)
+
+
 
 ## Usage
 
