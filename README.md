@@ -22,7 +22,7 @@ NoteMate
 │        package.json
 │        .....
 └── README.md
-
+d
 ## Usage
 
 You can clone this repo and play around with it in your local machine. Please follow the steps below:
