@@ -10,11 +10,17 @@ NOTEMATE is a long project in CMPE 195, Software Engineering Senior Project, at 
 
 ## Folder Hierarchy 
 NoteMate
+
 ├── Server-side (back-end)
+
 │        controllers
+
 │        models
+
 │        app.js
+
 │        package.json
+
 │        .....
 ├── Client-side (front-end)
 │        src
